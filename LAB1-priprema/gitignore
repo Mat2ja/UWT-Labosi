@@ -1,0 +1,4 @@
+# Ignore on Github
+*.zip
+*.pdf
+/Priprema1/.vscode
