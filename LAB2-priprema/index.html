@@ -11,7 +11,7 @@
 
         <!-- malo css-a da ne bude dosadno -->
         <style>
-            html {
+            body {
                 font-family: 'Montserrat', sans-serif;
                 line-height: 1.4;
                 padding: 10px 30px 20px;
@@ -23,6 +23,10 @@
 
             p {
                 margin-right: 50%;
+            }
+
+            hr {
+                border: 1px solid #dadada;
             }
 
             .city-img {
@@ -48,6 +52,7 @@
         <hr>
         <h2>0036519571</h2>
         <br><br>
+
         <h3>Navigation</h3>
         <a href="#montevideo"><img src="img/montevideo.jpg" alt="Montevideo" title="Montevideo" width="200"
                 class="city-img"></a>&nbsp;
@@ -61,7 +66,9 @@
                 class="city-img"></a>
 
         <br><br>
-        <hr><br><br>
+        <hr>
+        <br>
+
         <h2 id="montevideo">Montevideo</h2>
         <a href="#montevideo"><img src="img/montevideo.jpg" alt="Montevideo" title="Montevideo" width="200"></a>
         <p>
@@ -172,11 +179,13 @@
         <iframe src="https://www.australia.com/en/places/melbourne-and-surrounds/guide-to-melbourne.html" width="600"
             height="400"></iframe>
         <br><br>
-        <!--TODO slika treba bit 70% od originalne dimenzije slike, a ne sirine stranice-->
-        <img src="img/melbourne2.jpg" alt="Melbourne" title="Melbourne" width="70%">
+        <!-- slika treba bit 70% od originalne dimenzije slike, a ne sirine stranice-->
+        <div style="width: 1000px;background-color:#dadada;">
+            <img src="img/melbourne2.jpg" alt="Melbourne" title="Melbourne" width="70%">
+        </div>
         <br><br><br>
 
-        <a href="#vrh" style="font-size: x-large;"><mark>Vrati me na vrh</mark></a>
+        <a href="#vrh" style="font-size: x-large;" id="to-top"><mark>Vrati me na vrh</mark></a>
         <br><br><br>
 
     </body>
