@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Priprema za 3. labos</title>
+
+        <link rel="icon" href="https://www.tvz.hr/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: "Open Sans", sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Matija Osrečki</h1>
+        <hr>
+        <h2>0036519571</h2>
+        <br><br><br>
+
+        <center>
+            <form>
+                <table border="3" cellspacing="1" cellpadding="25" title="Gradovi" width="1500" height="1600">
+                    <caption><strong>Gradovi</strong></caption><br>
+                    <tr height="200">
+                        <td width="300"></td>
+                        <td colspan="2" width="300"></td>
+                        <td colspan="3" width="300"></td>
+                        <td colspan="2" width="300"></td>
+                        <td width="300"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;
+                            <input type="email" name="email" id="email" required>
+                        </td>
+                        <td colspan="6">
+                            <label for="pw">Lozinka:</label>&nbsp;&nbsp;&nbsp;
+                            <input type="password" name="pw" id="pw" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6"></td>
+                        <td colspan="3">
+                            <label for="url">URL:</label>&nbsp;&nbsp;&nbsp;
+                            <input type="url" name="url" id="url" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" rowspan="2"></td>
+                        <td colspan="6"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="3">
+                            <label for="melbourne">
+                                <img src="img/melbourne.jpg" alt="melbourne" width="100">
+                            </label>
+                            <input type="radio" id="melbourne" name="city" value="melbourne"><br>
+
+                            <label for="montevideo">
+                                <img src="img/montevideo.jpg" alt="montevideo" width="100">
+                            </label>
+                            <input type="radio" id="montevideo" name="city" value="montevideo"><br>
+
+                            <label for="moscow">
+                                <img src="img/moscow.jpg" alt="moscow" width="100">
+                            </label>
+                            <input type="radio" id="moscow" name="city"  value="moscow"><br>
+
+                            <label for="mumbai">
+                                <img src="img/mumbai.jpg" alt="mumbai" width="100">
+                            </label>
+                            <input type="radio" id="mumbai" name="city"  value="mumbai"><br>
+
+                            <label for="montreal">
+                                <img src="img/montreal.jpg" alt="montreal" width="100">
+                            </label>
+                            <input type="radio" id="montreal" name="city"  value="montreal"><br>
+                        </td>
+                        <td colspan="5"></td>
+                        <td colspan="2" rowspan="3">
+                            <label for="kalendar">Kalendar:</label>&nbsp;&nbsp;&nbsp;
+                            <input type="date" name="calendar" id="calendar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="3">
+                            <label for="sadrzaj">Odabir gradskog sadržaja:</label>&nbsp;&nbsp;&nbsp;
+                            <select id="sadrzaj" multiple size="5" name="venues">
+                                <option value="kino">Kino</option>
+                                <option value="kaz">Kazalište</option>
+                                <option value="klub">Klub</option>
+                                <option value="kugl">Kuglana</option>
+                                <option value="kliz">Klizalište</option>
+                            </select>
+                        </td>
+                        <td colspan="3">
+                            <label for="ulice">Odabir ulica:</label>&nbsp;&nbsp;&nbsp;
+                            <select id="ulice" name="street">
+                                <option value="street1">Champs-Élysées</option>
+                                <option value="street2">Lombard Street</option>
+                                <option value="street3">Abbey Road</option>
+                                <option value="street4">Ginza</option>
+                                <option value="street5">Santa Monica Boulevard</option>
+                                <option value="street6">Via Monte Napoleone</option>
+                                <option value="street7" selected>Fifth Avenue</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr height="200">
+                        <td></td>
+                        <td colspan="2" rowspan="4"></td>
+                        <td width="100"></td>
+                        <td width="100"></td>
+                        <td width="100"></td>
+                        <td colspan="2" rowspan="4"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="3" rowspan="3">
+                            <label for="poruka">Napiši poruku:</label>&nbsp;&nbsp;&nbsp;
+                            <textarea name="msg" id="poruka" cols="50" rows="10"></textarea>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="reset" name="reset" value="Ispočetka">
+                        </td>
+                        <td colspan="5"></td>
+                        <td colspan="2">
+                            <input type="submit" name="submit" value="Spremi">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </center>
+    </body>
+
+</html>
