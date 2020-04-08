@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matija Osrečki">
+        <title>Lab 3</title>
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body style="font-family: Arial, Helvetica, sans-serif;">
+        <form>
+            <table width='70%' border="1" cellpadding='10' cellspacing='0' style="border-color: black;">
+                <tr>
+                    <th colspan="5">Prijava na putovanje iz snova</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Ime i prezime:</label>
+                        <input type="text" name="name" id="name" placeholder="Ime i prezime">
+                    </td>
+                    <td colspan="2">
+                        <label for="email">Ime i prezime:</label>
+                        <input type="email" name="email" id="email" placeholder="mail@dpmain">
+                    </td>
+                    <td colspan="2">
+                        <label for="date">Datum rođenja:</label>
+                        <input type="date" name="date" id="date">
+                    </td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td colspan="2">
+                        <label for="password">Lozinka:</label>
+                        <input type="password" name="password" id="password" placeholder="Lozinka">
+                    </td>
+                    <td colspan="3">
+                        <label for="password-again">Ponovite lozinku:</label>
+                        <input type="password-again" name="password-again" id="password-again"
+                            placeholder="Ponovite lozinku">
+                    </td>
+                <tr>
+                    <td rowspan="3">Odaberite po jednu državu po kontinentu u koju želite otputovati:</td>
+                    <th>Sjeverna Amerika</th>
+                    <th>Južna Amerika</th>
+                    <th>Europa</th>
+                    <th>Azija</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="sj-am" id="usa" value='sad'>
+                        <label for="usa">SAD<br><img src="img/usa.jpg" alt="SAD" width="100%"></label>
+                    </td>
+                    <td>
+                        <input type="radio" name="juz-am" id="bra" value='brazil'>
+                        <label for="bra">Brazil<br><img src="img/brasil.jpg" alt="brazil" width="100%"></label>
+                    </td>
+                    <td>
+                        <input type="radio" name="eur" id="cro" value='hrvatska'>
+                        <label for="cro">Hrvatska<br><img src="img/cro.jpg" alt="hrvatska" width="100%"></label>
+                    </td>
+                    <td>
+                        <input type="radio" name="azija" id="china" value='kina'>
+                        <label for="china">Kina<br><img src="img/china.jpg" alt="kina" width="100%"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="sj-am" id="can" value='kanada'>
+                        <label for="can">Kanada<br><img src="img/canada.jpg" alt="kanada" width="100%"></label>
+                    </td>
+                    <td>
+                        <input type="radio" name="juz-am" id="col" value='kolumbija'>
+                        <label for="col">Kolumbija<br><img src="img/colombia.jpg" alt="kolumbija" width="100%"></label>
+                    </td>
+                    <td>
+                        <input type="radio" name="eur" id="cze" value='ceska'>
+                        <label for="cze">Češka<br><img src="img/canada.jpg" alt="ceska" width="100%"></label>
+                    </td>
+                    <td>
+                        <input type="radio" name="azija" id="ind" value='indija'>
+                        <label for="ind">India<br><img src="img/india.jpg" alt="indija" width="100%"></label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" style="text-align: right;">Broj posjećenih država do sada:</td>
+                    <td colspan="2">
+                        <select name="broj-posjecenih" id="broj-drzava">
+                            <option value="opcija1">Jedna država</option>
+                            <option value="opcija2">Tri države</option>
+                            <option value="opcija3">Izmedu 3 i 5 država</option>
+                            <option value="opcija4">Između 10 i 20 država</option>
+                            <option value="opcija5" selected>Više od 20 država</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <label>Govorim ove strane jezike:</label><br>
+                        <input type="checkbox" id="eng" value="engleski">
+                        <label for="eng">Engleski</label><br>
+                        <input type="checkbox" id="njem" value="njemacki">
+                        <label for="njem">Njemački</label><br>
+                        <input type="checkbox" id="tal" value="talijanski">
+                        <label for="tal">Talijanski</label>
+                    </td>
+                    <td colspan="3">
+                        <label for="napomena">Napomena:</label><br>
+                        <textarea name="napomena" id="napomena" cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td colspan="3"></td>
+                    <td>
+                        <input type="reset" value="Poništi">
+                    </td>
+                    <td>
+                        <input type="submit" name="posalji" value="Pošalji">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+
+</html>
