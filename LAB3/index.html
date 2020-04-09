@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matija Osrečki">
+        <title>Labos 3</title>
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body style="font-family: Arial, Helvetica, sans-serif;">
+        <form>
+            <center>
+                <table border="2" cellspacing="0" cellpadding="20 10" width="75%" style="border-color: black;">
+                    <tr>
+                        <th colspan="6">Prijava na putovanje iz snova</th>
+                    </tr>
+                    <tr style="text-align: center;" width="50%">
+                        <td colspan="2">
+                            <label for="password">Lozinka:</label>
+                            <input type="password" name="password" id="password" placeholder="Lozinka">
+                        </td>
+                        <td colspan="4">
+                            <label for="password-again" width="50%">Ponovite lozinku:</label>
+                            <input type="password" name="password-again" id="password-again"
+                                placeholder="Ponovite lozinku">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="name">Ime i prezime:</label><br>
+                            <input type="text" name="name" id="name" placeholder="Ime i prezime:">
+                        </td>
+                        <td style="text-align: center;">
+                            <label for="age">Broj godina:</label><br>
+                            <input type="range" name="age" id="age">
+                        </td>
+                        <td colspan="4" style="text-align: center;">
+                            <label for="tel">Broj mobitela:</label><br>
+                            <input type="tel" name="tel" id="tel" placeholder="123-45-678">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: center;">Broj posjećenih država do sada:</td>
+                        <td colspan="2" style="text-align: right;">
+                            <select name="broj-drzava">
+                                <option value="option1">Do 3 države</option>
+                                <option value="option2">Između 3 i 10 država</option>
+                                <option value="option3">Između 10 i 20 država</option>
+                                <option value="option4" selected>Više od 20 država</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <span>Govorim ove strane jezike:</span><br>
+                            <input type="checkbox" name="lang" id="eng" value="eng">
+                            <label for="eng">Engleski</label><br>
+                            <input type="checkbox" name="lang" id="njem" value="njem">
+                            <label for="njem">Njemački</label><br>
+                            <input type="checkbox" name="lang" id="tal" value="tal">
+                            <label for="tal">Talijanski</label>
+                        </td>
+                        <td colspan="3" style="text-align: right;">
+                            <label for="napomena">Napomena:</label><br>
+                            <textarea name="napomena" id="napomena" cols="20" rows="3"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" style="text-align: right; vertical-align: top;">
+                            Odaberite jednu državu po kontinentu u koju želite otputovati:
+                        </td>
+                        <th>Sjeverna Amerika</th>
+                        <th colspan="2">Južna Amerika</th>
+                        <th>Europa</th>
+                        <th>Azija</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="sj-am" id="usa" value="sad">
+                            <label for="usa">
+                                SAD<br>
+                                <img src="img/usa.png" alt="SAD" width="100%">
+                            </label>
+                        </td>
+                        <td colspan="2">
+                            <input type="radio" name="juz-am" id="arg" value="argentina">
+                            <label for="arg">
+                                Argentina<br>
+                                <img src="img/argentina.png" alt="argentina" width="100%">
+                            </label>
+                        </td>
+                        <td>
+                            <input type="radio" name="eur" id="fra" value="francuska">
+                            <label for="fra">
+                                Francuska<br>
+                                <img src="img/france.png" alt="francuska" width="100%">
+                            </label>
+                        </td>
+                        <td>
+                            <input type="radio" name="asia" id="china" value="kina">
+                            <label for="china">
+                                Kina<br>
+                                <img src="img/china.png" alt="kina" width="100%">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="sj-am" id="can" value="kanada">
+                            <label for="can">
+                                Kanada<br>
+                                <img src="img/canada.png" alt="kanada" width="100%">
+                            </label>
+                        </td>
+                        <td colspan="2">
+                            <input type="radio" name="juz-am" id="bra" value="brazil">
+                            <label for="bra">
+                                Brazil<br>
+                                <img src="img/brazil.png" alt="brazil" width="100%">
+                            </label>
+                        </td>
+                        <td>
+                            <input type="radio" name="eur" id="por" value="portugal">
+                            <label for="por">
+                                Portugal<br>
+                                <img src="img/portugal.png" alt="portugal" width="100%">
+                            </label>
+                        </td>
+                        <td>
+                            <input type="radio" name="asia" id="ind" value="indija">
+                            <label for="ind">
+                                Indija<br>
+                                <img src="img/india.png" alt="indija" width="100%">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: right;">
+                            <input type="reset" value="Poništi">
+                        </td>
+                        <td></td>
+                        <td style="text-align: center;">
+                            <input type="submit" name="posalji" value="Pošalji">
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </body>
+
+</html>
