@@ -1,0 +1,132 @@
+body {
+	max-width: 800px;
+	width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+	background-image: url(img/dot-grid.png);
+
+	font-family: "Times New Roman", Arial;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #222;
+}
+
+.intro {
+	margin-bottom: 40px;
+}
+
+
+
+/* 
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+*/
+
+.explanation {
+    margin-left: 0;
+    margin-right: 410px;
+    width: 400px;
+}
+
+.participation {
+    margin-right: 0;
+    margin-left: 410px;
+    width: 400px;
+    margin-top: -440px;
+}
+
+.benefits {
+    margin-left: 0;
+    margin-right: 410px;
+    width: 400px;
+}
+
+.requirements {
+    margin-right: 0;
+    margin-left: 410px;
+    width: 400px;
+    margin-top: -235px;
+}
+
+
+
+
+
+
+
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: dodgerblue;
+    transition: all 0.2s;
+    padding: 1px;
+
+}
+
+a:visited {
+    color: gray;
+    text-decoration: line-through;
+
+}
+
+a:hover {
+    border-bottom: 3px solid black;
+    color: crimson;
+
+}
+a:active {
+    color: green;
+    border: none;
+    border-bottom: 3px solid green;
+
+}
+
+
+
+.participation a:link {
+    letter-spacing: initial;
+	color: salmon;
+	border: 1px solid salmon;
+	padding: 2px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.participation a:visited {
+	color: cornflowerblue;
+}
+
+.participation a:hover {
+	background-color: salmon;
+	color: #222;
+	border-color: black;
+	border-style: dashed;
+	border-radius: 5px;
+}
+
+.participation a:active {
+    background-color: lightgreen;
+}
+
+
+table {
+    margin: 0 auto;
+    background-color: floralwhite;
+    color: darkgreen;
+}
+
+.bottom-left {
+    background-color: deeppink;
+}
+
+.bottom-right {
+    background-color: Chartreuse;
+}
+
+table label {
+    font-style: italic;
+}
