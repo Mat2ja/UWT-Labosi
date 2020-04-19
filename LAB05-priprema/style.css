@@ -36,13 +36,12 @@ a {
 img {
 	border-radius: 3px;
 	border: 8px solid transparent;
-    transition: all 0.2s;
-    
+	transition: all 0.2s;
 }
 
 img:hover {
-    border-color: #ffeaa7;
-    transform: rotate(-2deg) scale(1.03);
+	border-color: #ffeaa7;
+	transform: rotate(-2deg) scale(1.03);
 }
 
 h3 {
@@ -70,7 +69,7 @@ header h2 {
 }
 
 main {
-	margin: 40px auto;
+	margin: 40px auto 140px;
 	width: 80%;
 	max-width: 700px;
 	background-color: white;
@@ -157,7 +156,7 @@ li {
 .opus {
 	position: relative;
 	left: 520px;
-	bottom: 160px;
+	bottom: 165px;
 }
 
 .opus h3 {
