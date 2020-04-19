@@ -1,0 +1,166 @@
+/* 
+COLORS
+#D8D8D8
+#797979
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Manrope", Arial, Helvetica, sans-serif;
+	background-color: #d8d8d8;
+	font-size: 16px;
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+
+::selection {
+	background-color: #ffeaa7;
+	color: black;
+}
+
+.row {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	border-radius: 3px;
+	border: 8px solid transparent;
+    transition: all 0.2s;
+    
+}
+
+img:hover {
+    border-color: #ffeaa7;
+    transform: rotate(-2deg) scale(1.03);
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+header {
+	background-color: black;
+	padding: 30px;
+	color: white;
+}
+
+header h1 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 28px;
+	word-spacing: 4px;
+}
+
+header h2 {
+	font-weight: 400;
+	font-size: 16px;
+	color: #797979;
+}
+
+main {
+	margin: 40px auto;
+	width: 80%;
+	max-width: 700px;
+	background-color: white;
+	padding: 45px 45px 0;
+	border-radius: 3px;
+}
+
+.main-photo {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+article {
+	width: 40%;
+}
+
+article p {
+	font-weight: 300;
+}
+
+.articles {
+	position: relative;
+	margin-top: 30px;
+}
+
+.second-article {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+
+article a {
+	background-color: black;
+	color: white;
+	padding: 9px 38px;
+	position: relative;
+	top: 25px;
+	transition: all 0.5s;
+	font-size: 14px;
+}
+
+article a:hover {
+	background: linear-gradient(to right, #b4b4b4, #e7e7e7);
+	color: black;
+}
+
+.first-article a {
+	border-radius: 1000px;
+}
+
+.second-article a {
+	background: linear-gradient(to right, black, #d8d8d8);
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px;
+
+	background-color: black;
+	color: #797979;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.second-section {
+	position: relative;
+	top: 90px;
+}
+
+.poems-photo {
+	width: 65%;
+}
+
+li {
+	list-style: circle;
+	font-size: 18px;
+}
+
+.opus {
+	position: relative;
+	left: 520px;
+	bottom: 160px;
+}
+
+.opus h3 {
+	position: relative;
+	right: 16px;
+}
