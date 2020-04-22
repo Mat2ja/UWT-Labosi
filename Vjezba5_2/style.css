@@ -39,7 +39,16 @@ h2 {
 }
 
 header {
-	margin: 3px 0 30px;
+	position: fixed;
+	padding: 5px;
+	top: 0;
+	z-index: 9999;
+	background-color: #f8f7df;
+	width: 100%;
+}
+
+main {
+	margin-top: 100px;
 }
 
 .section-image {
