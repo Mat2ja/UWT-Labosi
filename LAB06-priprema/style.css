@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #5fa565;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.2;
+
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 35px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	text-transform: uppercase;
+}
+
+.border {
+	border: 2px solid #fffcfcaf;
+	border-radius: 3px;
+}
+
+header,
+article,
+blockquote {
+	padding: 20px;
+}
+
+header {
+	display: flow-root;
+	width: 50%;
+	margin: 0 auto;
+}
+
+header img {
+	float: left;
+	width: 120px;
+	margin-right: 20px;
+}
+
+header p {
+	text-transform: uppercase;
+}
+
+main {
+	margin: 15px 0;
+}
+
+.section-articles {
+	display: flow-root;
+}
+
+article {
+	margin: 10px;
+}
+
+article h2 {
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+
+article p {
+	text-align: justify;
+}
+
+.rodenje-posao-box,
+.mladost-smrt-box {
+	width: 50%;
+}
+
+.rodenje-posao-box {
+	float: left;
+}
+
+.mladost-smrt-box {
+	float: right;
+}
+
+.rodenje {
+	margin-bottom: 20px;
+}
+
+.mladost {
+	margin-bottom: 20px;
+}
+
+.posao img {
+	float: right;
+	height: 110px;
+	margin-left: 12px;
+}
+
+blockquote {
+	font-style: italic;
+	width: 50%;
+	margin: 15px auto;
+}
+
+.section-images img {
+	width: calc(50% - 20px);
+	float: left;
+	transition: filter 0.2s;
+	margin: 10px;
+}
+
+.section-links {
+	width: 100%;
+	display: flow-root;
+}
+
+.section-links a {
+	width: calc(100% / 3 - 20px);
+	float: left;
+	margin: 10px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.enciklopedija {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.wiki {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.memorial {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	font-weight: 600;
+}
+
+.border:hover {
+	background-color: #73b478;
+}
+
+@media only screen and (max-width: 799px) {
+	body {
+		background-color: #686de0;
+	}
+
+	header {
+		width: 100%;
+		width: calc(100% - 20px);
+	}
+
+	header img {
+		float: right;
+		margin: 0;
+	}
+
+	.section-articles div {
+		width: 100%;
+	}
+
+	article {
+		width: calc(50% - 20px);
+	}
+
+	.rodenje {
+		float: left;
+	}
+
+	.mladost {
+		float: left;
+		margin-bottom: 10px;
+	}
+
+	.posao {
+		float: left;
+	}
+
+	.smrt {
+		float: right;
+	}
+
+	.posao img {
+		float: left;
+		margin-left: 0;
+		margin-bottom: 10px;
+		height: 80px;
+	}
+
+	.posao p {
+		clear: both;
+	}
+
+	blockquote {
+		width: calc(100% - 20px);
+	}
+
+	.section-links a {
+		width: calc(100% / 2 - 20px);
+	}
+
+	.border:hover {
+		background-color: #9194e4;
+	}
+}
+
+@media only screen and (max-width: 699px) {
+	body {
+		background-color: #3775e4;
+	}
+
+	.border:hover {
+		background-color: #5285dd;
+	}
+}
