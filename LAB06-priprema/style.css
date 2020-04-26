@@ -72,17 +72,10 @@ article p {
 	text-align: justify;
 }
 
-.rodenje-posao-box,
-.mladost-smrt-box {
+.section-articles div {
 	width: 50%;
-}
-
-.rodenje-posao-box {
 	float: left;
-}
 
-.mladost-smrt-box {
-	float: right;
 }
 
 .rodenje {
@@ -174,14 +167,14 @@ footer {
 	.rodenje {
 		float: left;
 	}
+	
+	.posao {
+		float: left;
+	}
 
 	.mladost {
 		float: left;
 		margin-bottom: 10px;
-	}
-
-	.posao {
-		float: left;
 	}
 
 	.smrt {
