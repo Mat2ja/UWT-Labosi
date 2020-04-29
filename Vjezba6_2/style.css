@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.2;
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* main {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+article {
+	padding: 20px;
+}
+
+article h1 {
+	font-size: 26px;
+	margin-bottom: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.clear {
+	clear: both;
+}
+
+.sect-full {
+	width: 100%;
+}
+
+.sect-half {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.ljubicasta {
+	background-color: #ab47bc;
+}
+.zelena {
+	background-color: #66bb6a;
+}
+.crvena {
+	background-color: #ef5350;
+}
+.narancasta {
+	background-color: #ff7043;
+}
+.plava {
+	background-color: #2196f3;
+}
+.crna {
+	background-color: #000;
+}
+.siva {
+	background-color: #9e9e9e;
+}
+.zuta {
+	background-color: #ffca28;
+}
+.roza {
+	background-color: #ec407a;
+}
+
+.crvena-plava-container {
+	float: right;
+	width: 50%;
+}
+
+.zelena-narancasta-container {
+	float: left;
+	width: 50%;
+}
+
+.crna,
+.siva {
+	width: 50%;
+	float: left;
+}
+
+.crna img {
+	width: 130px;
+	float: right;
+	margin-left: 15px;
+}
+
+.siva img {
+	width: 130px;
+	float: left;
+	margin-right: 15px;
+}
+
+.zuta,
+.roza {
+	width: 25%;
+}
+
+.zuta {
+	float: left;
+}
+
+.roza {
+	float: right;
+}
+
+@media only screen and (max-width: 800px) {
+	.sect-half {
+		width: 100%;
+	}
+
+	.ljubicasta {
+		width: 80%;
+		float: right;
+	}
+
+	.crvena-plava-container,
+	.zelena-narancasta-container {
+		width: 80%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.crvena,
+	.plava,
+	.zelena,
+	.narancasta {
+		width: 50%;
+		float: left;
+	}
+}
