@@ -133,6 +133,11 @@ article h1 {
 		width: 100%;
 	}
 
+	.lightcoral,
+	.tomato {
+		float: right;
+	}
+
 	.gold,
 	.silver {
 		width: 100%;
