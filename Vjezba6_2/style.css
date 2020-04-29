@@ -132,4 +132,14 @@ article h1 {
 		width: 50%;
 		float: left;
 	}
+
+	.crna img,
+	.siva img {
+		display: none;
+	}
+
+	.zuta,
+	.roza {
+		width: 100%;
+	}
 }
