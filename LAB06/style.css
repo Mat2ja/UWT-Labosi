@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.2;
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+article {
+	padding: 20px;
+}
+
+article h1 {
+	font-size: 26px;
+	margin-bottom: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.clear {
+	clear: both;
+}
+
+.sect-crna-siva {
+	width: 100%;
+}
+
+.siva,
+.crna {
+	width: 50%;
+}
+
+.crna {
+	float: right;
+}
+
+.siva {
+	clear: both;
+	float: left;
+	text-align: right;
+}
+
+.crna img {
+	float: right;
+	width: 160px;
+	margin-left: 10px;
+}
+
+.siva img {
+	float: left;
+	width: 160px;
+	margin-right: 10px;
+}
+
+.sect-zpcn {
+	width: 50%;
+	clear: right;
+	float: right;
+}
+.zelena-plava {
+	width: 50%;
+	float: left;
+}
+
+.crvena-narancasta {
+	width: 50%;
+	float: right;
+}
+
+.sect-ljub {
+	clear: both;
+}
+
+.ljubicasta {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.zuta,
+.roza {
+	width: 50%;
+	float: left;
+}
+
+/* BOJE */
+.ljubicasta {
+	background-color: #ab47bc;
+}
+.zelena {
+	background-color: #66bb6a;
+}
+.crvena {
+	background-color: #ef5350;
+}
+.narancasta {
+	background-color: #ff7043;
+}
+.plava {
+	background-color: #2196f3;
+}
+.crna {
+	background-color: #000;
+}
+.siva {
+	background-color: #9e9e9e;
+}
+.zuta {
+	background-color: #ffca28;
+}
+.roza {
+	background-color: #ec407a;
+}
+
+@media only screen and (max-width: 800px) {
+	.sect-crna-siva img {
+		display: none;
+	}
+
+	.crna {
+		float: left;
+	}
+
+	.siva {
+		float: right;
+		text-align: left;
+	}
+
+	.sect-zpcn {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.zelena-plava,
+	.crvena-narancasta {
+		width: 100%;
+	}
+
+	.zelena,
+	.plava {
+		width: 100%;
+	}
+
+	.crvena,
+	.narancasta {
+		width: 50%;
+		float: right;
+	}
+
+	.ljubicasta {
+		float: left;
+		width: 80%;
+	}
+
+	.sect-zuta-roza {
+		clear: both;
+	}
+
+	.zuta,
+	.roza {
+		width: 40%;
+	}
+
+	.zuta {
+		float: left;
+	}
+
+	.roza {
+		float: right;
+	}
+}
