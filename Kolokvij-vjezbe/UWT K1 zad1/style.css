@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Quicksand", Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: url(img/bg01.jpg);
+	color: white;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+p {
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 300;
+}
+
+header {
+	display: flow-root;
+	position: fixed;
+	top: 0;
+	padding: 15px 0;
+	position: relative;
+}
+
+.header-container {
+	position: relative;
+}
+
+header h1,
+header p {
+	display: inline-block;
+	font-style: italic;
+}
+
+header h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+header p {
+	color: gray;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 0.9em;
+	position: relative;
+	top: -8px;
+}
+
+.quote {
+	width: 100%;
+	padding: 30px 5px;
+	text-align: center;
+	color: gray;
+	border-top: 1px solid #414040;
+	border-bottom: 1px solid #414040;
+	margin-bottom: 20px;
+}
+
+.quote h2 span {
+	color: white;
+}
+
+main {
+	width: 75%;
+}
+
+aside {
+	width: 23.5%;
+	float: right;
+	margin-left: 1.5%;
+}
+
+aside article {
+	padding: 40px 30px;
+}
+
+aside article h3 {
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+aside article p {
+	margin-bottom: 35px;
+}
+
+aside article:nth-child(2n + 1) {
+	background-color: orangered;
+	margin-bottom: 20px;
+}
+
+aside article:nth-child(2n) {
+	background-color: deepskyblue;
+}
+
+aside article .btn {
+	background-color: white;
+}
+
+aside article:nth-child(2n + 1) .btn {
+	color: orangered;
+}
+
+aside article:nth-child(2n) .btn {
+	color: DeepSkyBlue;
+}
+
+.btn {
+	text-transform: uppercase;
+	padding: 6px 10px;
+	color: blue;
+	font-weight: 600;
+}
+
+.articles article {
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.articles h3 {
+	color: #00a2ff;
+	font-size: 28px;
+}
+
+.articles article .content {
+	padding: 20px;
+	display: flow-root;
+}
+
+.articles article .text {
+	float: left;
+	width: 65%;
+	margin-right: 2%;
+}
+
+.articles article .gallery {
+	float: right;
+	width: 33%;
+}
+
+.articles article h3 {
+	padding-bottom: 25px;
+	border-bottom: 1px dotted #bdbdbd;
+}
+
+.articles article p {
+	color: #444;
+	margin-top: 25px;
+}
+
+.main-image {
+	width: 100%;
+}
+
+.small-article {
+	width: calc(100% / 3 - 1.4%);
+	float: left;
+}
+
+.small-article.margin {
+	margin-right: 2%;
+}
+
+.small-article .content {
+	padding-bottom: 200px;
+}
+
+.small-article img {
+	width: 100%;
+}
+
+.small-article p {
+	margin-bottom: 30px;
+}
+.small-article .btn {
+	background-color: gray;
+	color: white;
+}

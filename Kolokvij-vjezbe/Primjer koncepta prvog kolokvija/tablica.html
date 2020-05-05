@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Tablica</title>
+
+
+        <style>
+            body {
+                font-family: "Consolas", monospace;
+            }
+
+            table {
+                margin: auto;
+                width: 1200px;
+                background-color: lightskyblue;
+            }
+
+            tr>* {
+                border: 1px solid black;
+                padding: 8px 5px;
+            }
+
+            td {
+                color: gray;
+            }
+
+            th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            td {
+                width: 200px;
+            }
+
+            tbody th {
+                color: gray;
+            }
+
+            tbody td {
+                font-size: 12px;
+            }
+
+            .free {
+                background-color: white;
+                text-decoration: underline;
+                text-align: center;
+            }
+
+            .center-top {
+                vertical-align: top;
+            }
+
+            .center {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table border="2" cellspacing="0" style="border-color: black;">
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>8:00</th>
+                    <th>10:00</th>
+                    <th>12:00</th>
+                    <th>14:00</th>
+                    <th>16:00</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Mon</th>
+                    <td>Lesson 1</td>
+                    <td>Lesson 2</td>
+                    <td>Lunch</td>
+                    <td colspan="2" rowspan="3" class="free center-top">Free</td>
+                </tr>
+                <tr>
+                    <th>Tue</th>
+                    <td colspan="2" class="center">Lesson 1</td>
+                    <td>Lesson 2</td>
+                </tr>
+                <tr>
+                    <th>Wed</th>
+                    <td colspan="2" class="free">Free</td>
+                    <td>Lesson 1</td>
+                </tr>
+                <tr>
+                    <th>Thur</th>
+                    <td colspan="3">Lunch time</td>
+                    <td>Lesson 1</td>
+                    <td>Lesson 2</td>
+                </tr>
+                <tr>
+                    <th>Fri</th>
+                    <td>Lesson 1</td>
+                    <td>Lesson 2</td>
+                    <td colspan="3">Lunch time</td>
+                </tr>
+                <tr>
+                    <th>Sat</th>
+                    <td class="free center-top" colspan="5" rowspan="2">Free</td>
+                </tr>
+                <tr>
+                    <th>Sat</th>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+</html>
