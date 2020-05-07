@@ -1,0 +1,272 @@
+/* 
+Naslovi: #960000
+Sivi font u paragrafu i formi: #444444
+Pozadinska boja u tablici: #000000
+Border tablice: rgb(255, 154, 59)
+Bijeli font u nazivu tablice: #ffffff
+Pozadinska boja elemenata u formi: #e8e8e8
+Border elemenata u formi: #a7a7a7;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	line-height: 1.4;
+	background-image: url(images/bg-batman.jpg);
+	color: #444444;
+}
+
+.clear {
+	clear: both;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 400;
+}
+
+h2,
+h3 {
+	font-size: 36px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.header-content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+main {
+	max-width: 960px;
+	width: 96%;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.banner {
+	background-image: url(images/banner1.jpg);
+	background-position: center;
+	height: 420px;
+	color: black;
+}
+
+.banner div {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: max-content;
+	text-transform: uppercase;
+	padding: 30px;
+	position: relative;
+	top: 30px;
+	right: 10px;
+}
+
+.articles {
+	margin-top: 30px;
+	margin-right: 30px;
+	padding: 15px;
+	width: calc(70% - 30px); /* oduzimam marginu */
+	background-color: white;
+	float: left;
+}
+
+.articles article {
+	padding-bottom: 30px;
+	border-bottom: 2px dotted lightgray;
+	margin-bottom: 30px;
+}
+
+.articles article:not(:first-child) {
+	border-top: 2px dotted lightgray;
+	padding-top: 20px;
+}
+
+article h3 {
+	color: #960000;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+table {
+	width: 100%;
+	margin: 30px auto 10px;
+}
+
+table,
+th,
+td {
+	border-style: solid;
+	border-color: rgb(255, 154, 59);
+}
+
+td {
+	padding: 2px;
+}
+
+thead {
+	color: white;
+	background-color: black;
+}
+
+#img-batman {
+	float: left;
+	width: 50%;
+}
+
+#img-robin {
+	float: right;
+	width: 50%;
+}
+
+aside {
+	margin-top: 30px;
+	width: 30%;
+	background-color: white;
+	float: right;
+	padding: 15px;
+}
+
+aside h4 {
+	font-size: 20px;
+	color: #960000;
+	margin-bottom: 15px;
+}
+
+aside ul {
+	padding-left: 40px;
+	margin-bottom: 40px;
+}
+
+aside ul li {
+	font-size: 13px;
+	list-style-image: url(images/icon-resized.jpg);
+	position: relative;
+	padding: 3px 0;
+}
+
+aside ul li a {
+	text-decoration: none;
+	color: #368833;
+}
+
+aside ul li a:hover {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+form {
+	width: 90%;
+}
+form label,
+form p {
+	font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	background-color: #e8e8e8;
+	line-height: 1.6;
+	border: 1px solid #a7a7a7;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-family: inherit;
+	font-size: 14px;
+}
+
+form .buttons {
+	margin-top: 25px;
+}
+
+.buttons input {
+	font-size: 14px;
+	padding: 4px 6px;
+	font-weight: bolder;
+	border: 1px solid #a7a7a7;
+}
+
+#reset {
+	position: relative;
+	left: -2px;
+}
+
+footer {
+	background-color: #960000;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+footer span {
+	font-size: 12px;
+	border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 800px) {
+	header {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	.banner {
+		height: 250px;
+		background-size: cover;
+	}
+
+	.banner div {
+		padding: 25px 40px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	table,
+	.categories {
+		display: none;
+	}
+
+	.articles,
+	aside {
+		width: 100%;
+	}
+
+	#img-batman,
+	#img-robin {
+		width: 100%;
+		float: none;
+	}
+
+	.articles article:first-child {
+		border-bottom: none;
+		padding-bottom: 0px;
+	}
+
+	.articles article:last-child {
+		margin-bottom: 0;
+	}
+
+	aside {
+		margin-top: 0;
+		padding: 20px 50px;
+	}
+
+	form {
+		width: 70%;
+	}
+}
