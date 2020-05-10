@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Noto Sans", Arial, sans-serif;
+}
+
+body {
+	background-color: #303030;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	text-decoration: none;
+	background-color: #5c6bc0;
+	color: white;
+	text-align: center;
+	display: block;
+	padding: 20px;
+	transition: all 0.1s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+	background: url(hand.png) #ba68c8 no-repeat;
+	background-size: contain;
+}
+
+@media (max-width: 800px) {
+	nav ul li {
+		width: 100%;
+	}
+
+	nav ul li a {
+		margin-bottom: 1px;
+	}
+}
