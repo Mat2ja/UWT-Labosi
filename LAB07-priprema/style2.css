@@ -55,6 +55,11 @@ nav ul li a:active {
 	margin-bottom: 1px;
 }
 
+.dropdown-content li a:hover,
+.dropdown-content li a:active {
+	background-image: none;
+}
+
 .dropdown:hover .dropdown-content {
 	display: block;
 }
