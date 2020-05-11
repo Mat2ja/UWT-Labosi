@@ -33,8 +33,8 @@ nav ul li a {
 	transition: all 0.1s;
 }
 
-nav ul li a:hover,
-nav ul li a:active {
+li a:hover,
+.dropdown:hover .dropbtn {
 	background: url(hand.png) salmon no-repeat;
 	background-size: contain;
 }
@@ -52,12 +52,12 @@ nav ul li a:active {
 .dropdown-content li a {
 	background-color: #ffc8b7;
 	padding: 20px 5px;
-	margin-bottom: 1px;
+	/* margin-bottom: 1px; */
+	border-bottom: 1px solid #303030;
 }
 
-.dropdown-content li a:hover,
-.dropdown-content li a:active {
-	background-image: none;
+.dropdown-content li a:hover {
+	background: salmon;
 }
 
 .dropdown:hover .dropdown-content {
