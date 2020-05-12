@@ -22,7 +22,7 @@ nav ul li {
 	width: 25%;
 }
 
-li a:link {
+li a {
 	text-decoration: none;
 	background-color: #5c6bc0;
 	color: white;
