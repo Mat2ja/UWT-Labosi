@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Quicksand", sans-serif;
+
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 10px 0;
+
+	background: url(img/geometry_@2X.png);
+	background-size: 25%;
+	color: #d32828;
+}
+
+::selection {
+	color: black;
+	background-color: #ff010198;
+}
+
+h1,
+h2 {
+	font-family: "Vidaloka", serif;
+}
+
+header h1 {
+	float: right;
+	text-transform: uppercase;
+	font-size: 2.2em;
+}
+
+header h1 img {
+	height: 30px;
+	color: #d32828;
+}
+
+.hero-img {
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+ul li {
+	float: left;
+	background-color: #d32828;
+	width: 20%;
+}
+
+li a {
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 15px 40px;
+	width: 100%;
+	transition: all 0.2s;
+}
+
+li a:hover {
+	background: white url(img/snowflake-regular.svg) no-repeat;
+	color: #d32828;
+	background-size: 25px;
+	background-position: center left 5%;
+}
+
+main {
+	clear: both;
+	padding: 30px 0;
+}
+
+.jinglebells {
+	width: 65%;
+	margin-right: 2%;
+	float: left;
+	text-align: center;
+}
+
+.jinglebells h2 {
+	font-size: 2.2em;
+	margin-bottom: 10px;
+}
+
+.jinglebells p {
+	padding: 30px 10px;
+}
+
+aside {
+	width: 33%;
+	float: right;
+}
+
+.songs > div {
+	text-align: center;
+	border: 2px solid #d32828;
+	height: (100% / 4);
+	width: 100%;
+	padding: 12px 20px;
+	cursor: pointer;
+}
+
+.songs > div:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+footer {
+	clear: both;
+	color: white;
+	background-color: #d32828;
+	padding: 10px 20px;
+}
+
+@media (max-width: 800px) {
+	.hero-img {
+		width: 100%;
+		height: 200px;
+	}
+	ul li {
+		width: 100%;
+	}
+
+	aside {
+		display: none;
+	}
+
+	.jinglebells {
+		width: 100%;
+		margin: 0;
+		float: left;
+		text-align: center;
+	}
+
+	footer {
+		padding: 30px 20px;
+	}
+}
