@@ -12,24 +12,44 @@ body {
 	background-color: #303030;
 }
 
+.header-box {
+	padding: 7rem;
+	display: flex;
+	justify-content: center;
+}
+h1 {
+	font-family: "Playfair Display", serif;
+	font-size: 5em;
+	color: #ffab91;
+	text-shadow: 1.5rem 0 5rem salmon, -1.5rem 0 5rem salmon,
+		0rem 1.5rem 5rem salmon, 0rem -1.5rem 5rem salmon;
+	transition: all 1s;
+}
+
+nav {
+	display: flow-root;
+}
+
 nav ul {
 	list-style: none;
 	color: black;
 }
 
-nav ul li {
-	display: block;
+nav li {
+	/* display: block; */
 	float: left;
 	width: 25%;
 }
 
-nav ul li a {
+nav li a {
 	text-decoration: none;
 	background-color: #ffab91;
 	color: black;
 	text-align: center;
+
 	display: block;
 	padding: 20px;
+
 	transition: all 0.1s;
 }
 
@@ -41,12 +61,13 @@ li a:hover,
 
 .dropdown-content {
 	/* ljepse je bez toga */
-	/* position: absolute; */
+	position: absolute;
 	display: none;
+	width: 25%;
 }
 
 .dropdown-content li {
-	display: block;
+	/* display: block; */
 	width: 100%;
 }
 .dropdown-content li a {
@@ -65,11 +86,11 @@ li a:hover,
 }
 
 @media (max-width: 800px) {
-	nav ul li {
+	nav li {
 		width: 100%;
 	}
 
-	nav ul li a {
+	nav li a {
 		margin-bottom: 1px;
 	}
 }

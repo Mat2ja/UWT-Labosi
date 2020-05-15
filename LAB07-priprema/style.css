@@ -14,12 +14,14 @@ body {
 
 nav ul {
 	list-style: none;
+	/* display: flex; */
 }
 
-nav ul li {
+nav li {
 	display: block;
 	float: left;
 	width: 25%;
+	/* flex: 1 1 auto; */
 }
 
 li a {
@@ -27,22 +29,25 @@ li a {
 	background-color: #5c6bc0;
 	color: white;
 	text-align: center;
+
 	display: block;
 	padding: 20px;
+
 	transition: all 0.1s;
 }
 
-nav ul li a:hover {
+nav li a:hover {
 	background: url(hand.png) #ba68c8 no-repeat;
 	background-size: contain;
 }
 
 @media (max-width: 800px) {
-	nav ul li {
+	nav li {
 		width: 100%;
+		/* flex-basis: 100%; */
 	}
 
-	nav ul li a {
+	nav li a {
 		margin-bottom: 1px;
 	}
 }
