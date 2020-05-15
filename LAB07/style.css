@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #9c9c9c;
+	background-color: #ffffff;
+	font-family: "Jost", sans-serif;
+	position: relative;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	color: #009688;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	text-align: center;
+}
+
+nav li {
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+nav li a {
+	font-weight: 500;
+	display: block;
+	padding: 16px;
+	border-bottom: 2px solid transparent;
+}
+
+nav li a:hover {
+	background-color: #fdfadc;
+	border-color: #9c27b0;
+	color: #9c27b0;
+}
+
+header {
+	margin-bottom: 30px;
+}
+
+header img {
+	width: 100%;
+}
+
+h2 {
+	margin-bottom: 15px;
+}
+
+aside {
+	float: left;
+	width: 29%;
+    margin-right: 4%;
+	margin-left: 2%;
+    margin-bottom: 20px;
+
+}
+
+aside li a {
+	color: #0ca63b;
+	display: block;
+	padding: 10px 25px;
+	text-align: center;
+	border: 5px dotted #fee236;
+	margin-bottom: 10px;
+}
+
+aside li a:hover {
+	border-style: solid;
+	background: url(img/ice-cream.jpg) no-repeat;
+	background-position: center left 10px;
+}
+
+main {
+	float: right;
+	width: 65%;
+}
+
+section img {
+	float: left;
+	width: 30%;
+	margin: 5px;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	padding: 20px;
+
+	color: white;
+	background-color: #9ce3e9;
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+	nav li {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+
+	nav li a {
+		color: white;
+		background-color: #9c27b0;
+        border: none;
+        
+        display: block;
+		padding: 16px;
+	}
+
+	nav li a:hover {
+		background-color: #fdfadc;
+		border-color: #9c27b0;
+		color: #9c27b0;
+	}
+
+	aside {
+		float: none;
+		width: 100%;
+		padding: 0 20px;
+		text-align: center;
+		margin: 0;
+	}
+
+	aside li a {
+		color: #e91e63;
+		display: block;
+		padding: 12px 25px;
+		text-align: center;
+		border: 5px solid #8643a8;
+		margin-bottom: 10px;
+	}
+
+	aside li a:hover {
+		border-style: dotted;
+		background: url(img/ice-cream.jpg) no-repeat;
+		background-position: center left 10px;
+	}
+
+	main {
+		margin-top: 40px;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	section img {
+		float: left;
+		width: 48%;
+		margin: 1%;
+	}
+}
