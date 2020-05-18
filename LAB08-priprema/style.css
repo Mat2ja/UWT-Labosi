@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scrollbar-width: thin;
+	scrollbar-color: #f9bc60 #004744;
+}
+
+body {
+	font-family: "DM Mono", sans-serif;
+	background-color: #e8e4e6;
+}
+
+::selection {
+	background-color: #f9bc60;
+	color: #003330;
+}
+
+header,
+footer {
+	text-align: center;
+	padding: 40px;
+	font-size: 2em;
+	background-color: hsl(176, 100%, 12%);
+	color: #f9bc60;
+}
+
+main {
+	background-color: #004744;
+	color: #abd1c6;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+aside {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+aside img {
+	width: 100%;
+}
+
+aside:first-of-type {
+	background-color: hsl(177, 100%, 18%);
+}
+
+aside:last-of-type {
+	background-color: hsl(177, 100%, 16%);
+}
+
+aside i {
+	width: 100%;
+	color: #f9bc60;
+	font-size: 5em;
+	transition: all 1s;
+	margin-bottom: 20px;
+	cursor: crosshair;
+}
+
+aside i:hover {
+	transform: rotate(360deg);
+}
+
+/* reset bootstrap margin */
+footer p {
+	margin-bottom: 0;
+}
