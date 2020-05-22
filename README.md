@@ -68,13 +68,13 @@
 
 # 1. KOLOKVIJ 🐸
 
- - [***Kolokvi**j*](silky-cook.surge.sh)
+ - [***Kolokvi**j*](https://silky-cook.surge.sh)
 
 > PRIPREMA
- - [*Službena priprema*](eminent-afternoon.surge.sh)
- - [*Stara priprema (v1)*](knotty-vessel.surge.sh)
- - [*Stara priprema (v2)*](economic-color.surge.sh)
- - [*Stari kolokvij (zad1)*](faulty-air.surge.sh)
+ - [*Službena priprema*](https://eminent-afternoon.surge.sh)
+ - [*Stara priprema (v1)*](https://knotty-vessel.surge.sh)
+ - [*Stara priprema (v2)*](https://economic-color.surge.sh)
+ - [*Stari kolokvij (zad1)*](https://faulty-air.surge.sh)
 
 
 
