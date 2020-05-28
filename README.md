@@ -59,11 +59,16 @@
 ## LABOS 08 🕷
 > Radni okvir, rešetka (*Bootstrap*)
 
- - [*Priprema (poništena)*](https://lab-08-priprema-ponistena.now.sh)
  - [*Priprema*](https://lab-08-priprema.now.sh)
  - [*Labos (v1)*](https://lab-08-leaked.mat2ja.now.sh)
  - [*Labos (v2)*](https://lab-08-leaked-v2.mat2ja.now.sh)
  - [*Labos*](https://lab-08.now.sh)
+
+## LABOS 08 🦛
+> Fontovi, font ikone, pseudoklase
+
+ - [*Priprema)*](https://lab-08-priprema-ponistena.now.sh)
+ - [*Labos (v1)*](https://fumbling-friend.surge.sh)
 
 
 # 1. KOLOKVIJ 🐸
