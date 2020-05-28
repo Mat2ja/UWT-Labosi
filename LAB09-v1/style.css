@@ -48,8 +48,7 @@ nav li {
 	cursor: pointer;
 	padding: 10px;
 
-	transition: all .2s;
-
+	transition: all 0.2s;
 }
 
 nav li:hover {
@@ -94,34 +93,22 @@ section:first-child p {
 	margin: 10px 0 15px;
 }
 
-.icon {
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	margin: 0 auto;
-}
-
 .icon i {
 	color: white;
-	font-size: 26px;
 }
 
-.icon-1 {
-	background-color: #2196f3;
+.icon-1 i:first-child {
+	color: #2196f3;
 }
-.icon-2 {
-	background-color: #f44336;
+
+.icon-2 i:first-child {
+	color: #f44336;
 }
-.icon-3 {
-	background-color: #4caf50;
+.icon-3 i:first-child {
+	color: #4caf50;
 }
-.icon-4 {
-	background-color: #ffeb3b;
+.icon-4 i:first-child {
+	color: #ffeb3b;
 }
 
 /* SECTION WITH LOREM */
@@ -131,12 +118,11 @@ section:nth-child(2) {
 	text-align: center;
 	padding: 30px 0;
 
-	transition: all .2s;
-
+	transition: all 0.2s;
 }
 
 section:nth-child(2):hover {
-	background: #E08524;
+	background: #e08524;
 	color: #2196f3;
 }
 
@@ -150,11 +136,11 @@ article {
 
 article img {
 	width: 100%;
-	transition: all .2s;
+	transition: all 0.2s;
 }
 
 article img:hover {
-	opacity: .8;
+	opacity: 0.8;
 }
 
 article p {
