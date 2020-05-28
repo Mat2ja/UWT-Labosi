@@ -64,7 +64,7 @@
  - [*Labos (v2)*](https://lab-08-leaked-v2.mat2ja.now.sh)
  - [*Labos*](https://lab-08.now.sh)
 
-## LABOS 08 🦛
+## LABOS 09 🦛
 > Fontovi, font ikone, pseudoklase
 
  - [*Priprema)*](https://lab-08-priprema-ponistena.now.sh)
