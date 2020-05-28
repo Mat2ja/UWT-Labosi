@@ -60,6 +60,9 @@ nav li {
 	border-bottom-right-radius: 20px;
 	cursor: pointer;
 	padding: 10px;
+
+	transition: all .2s;
+
 }
 
 nav li:hover {
@@ -140,11 +143,17 @@ section:nth-child(2) {
 	background: #8bc34a;
 	text-align: center;
 	padding: 30px 0;
+
+	transition: all .2s;
+
+}
+
+section:nth-child(2):hover {
+	background: #E08524;
+	color: #2196f3;
 }
 
 /* IMAGE GRID SECTION */
-section:nth-child(3) {
-}
 
 article {
 	box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.2);
@@ -154,6 +163,11 @@ article {
 
 article img {
 	width: 100%;
+	transition: all .2s;
+}
+
+article img:hover {
+	opacity: .8;
 }
 
 article p {
