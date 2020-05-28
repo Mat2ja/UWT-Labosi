@@ -1,0 +1,178 @@
+/* 
+
+Hover ikona
+#607D8B
+Središnji 100% dio:
+Pozadina:
+#8BC34A
+Hover središnji dio:
+#E08524
+Hover tekst:
+#2196F3
+*/
+
+/* BASE STYLES */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+/* HEADER AND NAVIGATION */
+
+header,
+footer {
+	text-align: center;
+	background-color: #e08524;
+	color: white;
+}
+
+header {
+	padding: 30px 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 auto;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+nav li {
+	display: inline-block;
+	width: 100%;
+	background: #8bc34a;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 20px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+nav li:hover {
+	background: white;
+	color: #8bc34a;
+}
+
+nav .col-sm-3 {
+	padding: 1px;
+}
+
+h1 {
+	clear: both;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+}
+
+h1 span {
+	display: block;
+	color: #a7ffeb;
+}
+
+/* MAIN */
+
+section {
+	margin: 30px 0;
+}
+p {
+	margin-bottom: 0; /* override bootstrap margins */
+}
+
+/* SECTION WITH ICONS */
+
+section:first-child {
+	text-align: center;
+}
+
+section:first-child p {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 10px 0 15px;
+}
+
+.icon {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin: 0 auto;
+}
+
+.icon i {
+	color: white;
+	font-size: 26px;
+}
+
+.icon-1 {
+	background-color: #2196f3;
+}
+.icon-2 {
+	background-color: #f44336;
+}
+.icon-3 {
+	background-color: #4caf50;
+}
+.icon-4 {
+	background-color: #ffeb3b;
+}
+
+/* SECTION WITH LOREM */
+
+section:nth-child(2) {
+	background: #8bc34a;
+	text-align: center;
+	padding: 30px 0;
+}
+
+/* IMAGE GRID SECTION */
+section:nth-child(3) {
+}
+
+article {
+	box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.2);
+	padding: 0;
+	margin: 15px 0;
+}
+
+article img {
+	width: 100%;
+}
+
+article p {
+	background-color: white;
+	padding: 15px;
+	line-height: 1.2;
+}
+
+/* FOOTER */
+footer {
+	padding: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+	nav .col-sm-3 {
+		padding: 0px;
+	}
+
+	nav li {
+		border-radius: 0;
+	}
+}
