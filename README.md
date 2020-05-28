@@ -68,7 +68,7 @@
 > Fontovi, font ikone, pseudoklase
 
  - [*Priprema)*](https://lab-08-priprema-ponistena.now.sh)
- - [*Labos (v1)*](https://fumbling-friend.surge.sh)
+ - [*Labos (v1)*](https://true-shirt.surge.sh)
 
 
 # 1. KOLOKVIJ 🐸
