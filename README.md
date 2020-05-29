@@ -47,8 +47,8 @@ _Svi kodovi su moji_ 😘
 > Plutanje i responzivnost
 
 -   [_Priprema_](https://lab-06-priprema.now.sh)
--   [_Labos (v1)_](marvelous-middle.surge.sh)
--   [_Labos (v2)_](lab6-2.surge.sh)
+-   [_Labos (v1)_](https://marvelous-middle.surge.sh)
+-   [_Labos (v2)_](https://lab6-2.surge.sh)
 -   [_Labos_](https://lab-06.now.sh)
 
 ## LABOS 07 🐌
@@ -72,7 +72,7 @@ _Svi kodovi su moji_ 😘
 
 > Fontovi, font ikone, pseudoklase
 
--   [_Priprema)_](https://lab-08-priprema-ponistena.now.sh)
+-   [_Priprema_](https://lab-08-priprema-ponistena.now.sh)
 -   [_Labos (v1)_](https://true-shirt.surge.sh)
 -   [_Labos_](https://lab09.now.sh)
 
