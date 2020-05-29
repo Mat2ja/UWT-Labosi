@@ -87,7 +87,7 @@ section:first-of-type [class|="col"] {
 
 article {
 	box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.2);
-	margin: 10px 0;
+	margin: 8px 0;
 }
 
 article img {
@@ -149,14 +149,4 @@ footer {
 	background-color: #e08524;
 	color: white;
 	padding: 30px;
-}
-
-/*---------------------
-	MEDIA QUERIES
----------------------*/
-
-@media only screen and (max-width: 768px) {
-	article {
-		margin: 8px 0;
-	}
 }
