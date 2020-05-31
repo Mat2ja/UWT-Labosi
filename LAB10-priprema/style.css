@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scrollbar-width: thin;
+}
+
+body {
+	font-family: "IBM Plex Sans", sans-serif;
+	color: white;
+	background: #70a1ff;
+}
+
+.row {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+nav {
+	background: #574b90;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	flex: 0 1 140px;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: inherit;
+	padding: 1.25em;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+    height: 100%;
+    transition: all 200ms;
+}
+
+nav a:hover {
+	background: #9e579d;
+}
+
+header {
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header p {
+	flex: 0 1 400px;
+	padding: 1em;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+}
+
+header p::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	background: hsl(219, 100%, 74%);
+	z-index: -1;
+	border-radius: 6px;
+	transform: scale(1, 0);
+	transform-origin: top;
+	transition: transform 300ms ease-out;
+}
+
+header p:hover::before {
+	transform: scale(1, 1);
+	transform-origin: bottom;
+}
+
+section {
+	background: #ffb174;
+	padding: 30px 0;
+}
+
+section .row {
+	display: flex; /* center */
+}
+
+section .card {
+	background: #f3f3f3;
+	color: black;
+	border-radius: 6px;
+	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.09);
+
+	flex: 1;
+	margin: 15px;
+	padding: 25px;
+
+	transition: all 250ms;
+}
+
+section .card:hover {
+	box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.12), 10px 10px 0 rgba(0, 0, 0, 0.1),
+		15px 15px 0 rgba(0, 0, 0, 0.08);
+	transform: translate(-3px, -3px);
+}
+
+footer {
+	text-align: center;
+	padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+	section .row {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 630px) {
+	nav ul {
+		flex-direction: column;
+		height: 180px;
+		overflow-y: auto;
+		scrollbar-width: thin;
+	}
+
+	nav li {
+		flex: 0;
+		text-align: center;
+	}
+}
