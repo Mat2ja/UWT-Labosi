@@ -76,6 +76,12 @@ _Svi kodovi su moji_ 😘
 -   [_Labos (v1)_](https://true-shirt.surge.sh)
 -   [_Labos_](https://lab09.now.sh)
 
+## LABOS 10 🦧
+
+> Flexbox
+
+-   [_Priprema_](https://lab-10-priprema.now.sh)
+
 # 1. KOLOKVIJ 🐸
 
 -   [**\*Kolokvi**j\*](https://silky-cook.surge.sh)
