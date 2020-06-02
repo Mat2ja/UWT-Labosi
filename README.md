@@ -81,6 +81,7 @@ _Svi kodovi su moji_ 😘
 > Flexbox
 
 -   [_Priprema_](https://lab-10-priprema.now.sh)
+-   [_Labos (v1)_](https://lab-10-v1.now.sh)
 
 # 1. KOLOKVIJ 🐸
 
