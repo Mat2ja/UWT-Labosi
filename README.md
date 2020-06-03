@@ -85,7 +85,7 @@ _Svi kodovi su moji_ 😘
 
 # 1. KOLOKVIJ 🐸
 
--   [**\*Kolokvi**j\*](https://silky-cook.surge.sh)
+-   [**_Kolokvij_**](https://silky-cook.surge.sh)
 
 > PRIPREMA
 
