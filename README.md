@@ -84,6 +84,12 @@ _Svi kodovi su moji_ 😘
 -   [_Labos (v1)_](https://lab-10-v1.now.sh)
 -   [_Labos_](https://vulgar-hole.surge.sh)
 
+## LABOS 11 🐌
+
+> Video, mape i CSS3
+
+-   [_Priprema_](https://infamous-edge.surge.sh)
+
 # 1. KOLOKVIJ 🐸
 
 -   [**_Kolokvij_**](https://silky-cook.surge.sh)
