@@ -76,7 +76,7 @@ _Svi kodovi su moji_ 😘
 -   [_Labos (v1)_](https://true-shirt.surge.sh)
 -   [_Labos_](https://lab09.now.sh)
 
-## LABOS 10 🦧
+## LABOS 10 🐆
 
 > Flexbox
 
@@ -84,11 +84,12 @@ _Svi kodovi su moji_ 😘
 -   [_Labos (v1)_](https://lab-10-v1.now.sh)
 -   [_Labos_](https://vulgar-hole.surge.sh)
 
-## LABOS 11 🐌
+## LABOS 11 🦧
 
 > Video, mape i CSS3
 
--   [_Priprema_](https://infamous-edge.surge.sh)
+-   [_Priprema (float)_](https://infamous-edge.surge.sh)
+-   [_Priprema (flexbox)_](https://perfect-taste.surge.sh)
 
 # 1. KOLOKVIJ 🐸
 
