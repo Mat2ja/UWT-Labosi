@@ -1,0 +1,243 @@
+/* #FDBB00 #60BC0F #222 #777 #F9FAFC  */
+
+/* 
+  || BASE
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/* 
+  || NAVIGATION
+*/
+nav {
+	background: #222;
+	color: #f9fafc;
+}
+
+nav ul {
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 0.9em;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav li {
+	margin: 0 0.5em;
+}
+
+nav a {
+	padding: 1em 1.2em;
+	display: block;
+}
+
+nav a:hover {
+	color: #fdbb00;
+}
+
+/*
+  || HEADER
+*/
+
+header {
+	padding: 160px 10px;
+	background: url(img/home-banner.jpg);
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header .row {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header .row > div {
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fdbb00;
+	font-size: 2em;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-size: 2.2em;
+}
+
+header input {
+	padding: 1em 0.6em;
+	flex: 1;
+}
+
+header button {
+	border: none;
+	background: #60bc0f;
+	border: 1px solid transparent;
+	color: white;
+	text-transform: uppercase;
+	padding: 1em 2em;
+	cursor: pointer;
+}
+
+/* 
+  || SECTIONS
+*/
+
+section {
+	padding: 90px 0;
+}
+
+h3 {
+	font-size: 1.8em;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/* 
+  || FIRST SECTION
+*/
+
+section p {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	color: #777;
+	padding: 0 1em;
+}
+
+.grid {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid div {
+	background: #f9fafc;
+	margin: 10px;
+	padding: 2em;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+
+	transition: all 0.5s ease-in-out;
+}
+
+.grid div:hover {
+	box-shadow: 0 0 24px rgba(119, 119, 119, 0.15);
+}
+
+.grid img {
+	width: 60px;
+	margin: 1.5em auto;
+}
+
+/* jer je prva slika veca od ostalih */
+.grid div:first-child img {
+	width: 50px;
+}
+
+.grid h4 {
+	font-size: 1.3em;
+}
+
+.grid p {
+	margin-top: auto;
+	font-size: 0.9em;
+}
+
+/* 
+  || SECOND SECTION
+*/
+
+section:nth-child(2) {
+	background: #f9fafc;
+}
+
+section:nth-child(2) iframe {
+	width: 100%;
+	margin-top: 50px;
+}
+
+/* 
+  || THIRD SECTION
+*/
+
+section:nth-child(3) {
+	background: #60bc0f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+section:nth-child(3) iframe {
+	max-width: 100%;
+}
+
+/* 
+  || FOOTER
+*/
+
+footer {
+	background: #222;
+}
+
+footer p {
+	padding: 1.2em;
+	font-size: 0.8em;
+	color: white;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	nav ul {
+		flex-direction: column;
+		padding: 5px 0;
+	}
+
+	nav li {
+		margin-left: 2em;
+	}
+
+	.grid {
+		flex-direction: column;
+	}
+
+	.grid div {
+		max-width: 380px;
+	}
+}
