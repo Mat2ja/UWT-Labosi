@@ -1,0 +1,290 @@
+/** https://evento.now.sh */
+
+
+/* ---------------
+    BASE
+---------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Delius", cursive;
+	line-height: 1.5;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+/* ---------------
+    HEADER
+---------------- */
+
+header {
+	background: url(images/slider/bg1.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 800px;
+	text-transform: uppercase;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.socials {
+	display: flex;
+	justify-content: flex-end;
+	padding: 1em;
+}
+
+.socials i {
+	margin: 0 10px;
+	font-size: 1.5em;
+	transition: color 0.5s;
+	cursor: pointer;
+}
+
+.socials i:hover {
+	color: #75b370;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.logo {
+	background: rgba(48, 155, 194, 0.75);
+	display: flex;
+	align-items: center;
+	height: 70px;
+}
+
+.logo img {
+	padding-left: 2em;
+	height: 150%;
+	position: relative;
+	top: -7px;
+}
+
+nav ul {
+	list-style: none;
+	background: rgba(48, 155, 194, 0.75);
+	padding-right: 2em;
+	display: flex;
+}
+
+nav li {
+	display: flex; /* stretch links through the entire height */
+}
+
+nav a {
+	display: flex;
+	align-items: center; /* align text vertically */
+	padding: 10px 20px;
+	transition: all 0.3s;
+}
+
+nav a:hover {
+	background: rgba(255, 255, 255, 0.85);
+	color: #309bc2;
+}
+
+header > div:last-of-type {
+	background: rgba(0, 0, 0, 0.6);
+	width: max-content;
+	padding: 1em;
+	padding-left: 2em;
+	margin-top: auto;
+	margin-bottom: 120px;
+}
+
+header > div:last-of-type > * {
+	margin: 5px 0;
+}
+
+header > div:last-of-type a {
+	color: #309bc2;
+}
+
+/* ---------------
+    ABOUT
+---------------- */
+
+.about {
+	display: flex;
+	color: white;
+}
+
+.about > * {
+	flex: 1; /* each element takes half of the available spavce */
+}
+
+.about div {
+	padding: 80px 25px;
+	background: url(images/about-bg.jpg) no-repeat;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.about button {
+	border: none;
+	background: #137c61;
+	color: inherit;
+	font-weight: bold;
+
+	padding: 1em 1.4em;
+	margin-top: 30px;
+	cursor: pointer;
+
+	transition: all 1s;
+}
+
+.about button:hover {
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------------
+    MAP
+---------------- */
+
+iframe {
+	width: 100%;
+	height: 600px;
+	display: block; /* remove whitespace at bottom caused by inline-block */
+}
+
+/* ---------------
+    EVENTS
+---------------- */
+
+.events {
+	padding: 60px 10px;
+	background: url(images/performar-bg.jpg);
+	text-transform: uppercase;
+}
+
+.events > div {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.events h2 {
+	margin-left: 10px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex > * {
+	margin: 10px;
+}
+
+.flex img {
+	width: 100%;
+}
+
+.events p {
+	margin: 5px 0;
+}
+
+.events p:last-child {
+	font-size: 0.8em;
+}
+
+/* ---------------
+   MEDIA QUERIES
+---------------- */
+
+@media only screen and (max-width: 992px) {
+	/* zezno sam header background za uzi layout, trebao bi nekako biti sam za sebe, zasebno od navigacije 🤷‍♂️ */
+
+	.socials {
+		display: none;
+	}
+
+	nav {
+		flex-direction: column;
+		background: #309bc2;
+	}
+
+	.logo {
+		padding: 1em;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	.logo img {
+		top: 0;
+		padding: 0;
+	}
+
+	nav ul {
+		background: none;
+		margin-top: 10px;
+		padding-right: 0;
+
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	nav li {
+		width: 100%;
+	}
+
+	nav a {
+		padding-right: 2em;
+		width: 100%;
+		display: block;
+		text-align: right;
+	}
+
+	header > div:last-of-type {
+		padding: 1em;
+	}
+
+	.about img {
+		display: none;
+	}
+
+	.flex {
+		flex-wrap: wrap;
+	}
+
+	.flex > * {
+		padding: 20px;
+		margin: 0;
+		flex: 0 0 50%;
+	}
+
+	.events h2 {
+		margin-left: 20px;
+	}
+}
