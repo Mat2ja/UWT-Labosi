@@ -69,14 +69,13 @@ header {
 nav {
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
 }
 
 .logo {
 	background: rgba(48, 155, 194, 0.75);
 	display: flex;
 	align-items: center;
-	height: 70px;
+	height: 75px;
 	padding-left: 2em;
 }
 
@@ -150,11 +149,6 @@ header > div:last-of-type a {
 	padding: 100px 25px;
 	background: url(images/about-bg.jpg) no-repeat;
 	background-size: cover;
-
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
 }
 
 .about button {
@@ -173,7 +167,7 @@ header > div:last-of-type a {
 .about button:hover {
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
-	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* ---------------
@@ -224,6 +218,7 @@ iframe {
 
 .events p:last-child {
 	font-size: 0.8em;
+	color: rgba(255, 255, 255, 0.7);
 }
 
 /* ---------------
@@ -244,7 +239,7 @@ iframe {
 
 	.logo {
 		padding: 1em;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	}
 
 	.logo img {
@@ -257,11 +252,6 @@ iframe {
 		padding-right: 0;
 
 		flex-direction: column;
-		align-items: flex-end;
-	}
-
-	nav li {
-		width: 100%;
 	}
 
 	nav a {
