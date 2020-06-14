@@ -4,6 +4,8 @@
 
 _Svi kodovi su moji_ 😘
 
+_Linkovi vode na live demo_
+
 ## LABOS 01 🐬
 
 > Osnove HTML-A
