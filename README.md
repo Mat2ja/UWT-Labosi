@@ -104,3 +104,11 @@ _Svi kodovi su moji_ 😘
 -   [_Stara priprema (v1)_](https://knotty-vessel.surge.sh)
 -   [_Stara priprema (v2)_](https://economic-color.surge.sh)
 -   [_Stari kolokvij (zad1)_](https://faulty-air.surge.sh)
+
+
+# 2. KOLOKVIJ 🦖
+
+> PRIPREMA
+
+-  [_Evento (flexbox)_](https://evento.now.sh)
+
