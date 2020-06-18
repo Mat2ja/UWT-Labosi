@@ -269,6 +269,10 @@ footer p {
 		flex-direction: column;
 	}
 
+	.services section > div:last-child {
+		margin-left: 0;
+	}
+
 	.column {
 		font-size: 0.8em;
 	}
