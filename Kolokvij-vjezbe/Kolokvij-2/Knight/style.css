@@ -33,9 +33,10 @@ ul {
 
 header {
 	margin-top: 1px;
+	padding: 200px 1em;
+	text-align: center;
 	color: white;
 	background: url(img/section-bg1.jpg) no-repeat center / cover;
-	padding: 200px 1em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -92,6 +93,7 @@ nav ul {
 
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap; /* temp fix */
 	align-items: center;
 }
 
@@ -180,12 +182,16 @@ h3 {
 
 .location .row > div {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+}
+
+.location .row div div {
+	margin: 1em;
+	max-width: 500px;
 }
 
 .location iframe {
-	margin: 1em;
-	max-width: 100%;
+	width: 100%;
 }
 
 /* SOCIAL */
@@ -249,7 +255,6 @@ footer p {
 @media only screen and (max-width: 480px) {
 	header {
 		font-size: 0.8em;
-		text-align: center;
 		padding: 120px 1em;
 	}
 	.row {
@@ -292,9 +297,9 @@ footer p {
 		flex-direction: column;
 	}
 
-	.location iframe {
-		max-width: 300px;
+	.location .row div div {
 		margin: 1em auto;
+		max-width: 300px;
 	}
 
 	h3 {
