@@ -110,6 +110,8 @@ _Linkovi vode na live demo_
 
 # 2. KOLOKVIJ 🦖
 
+-   [**_Kolokvij_**](https://2-kolokvij.vercel.app)
+
 > PRIPREMA
 
 -  [_Evento (flexbox)_](https://evento.now.sh)
