@@ -2,7 +2,7 @@
 
 > 2. semestar - Stručni studij računarstva (Redovni računarstvo) - Obavezni predmet
 
-_Svi kodovi su moji_ 😘 I neg kaj neg 100/100
+_Svi kodovi su moji_ 😘 100/100
 
 _Linkovi vode na live demo_
 
